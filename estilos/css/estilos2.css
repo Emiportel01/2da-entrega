@@ -5,16 +5,19 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    background-color: rgb(230, 212, 212);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    background-color: rgb(243, 240, 240);
 }
 
 header {
     height: 250px;
-    background-color: powderblue;
+    background-color: rgb(159, 150, 123);
     max-width: 100%;
     height: auto;
+}
+
+h1 {
+    text-align: center;
 }
 
 .btn {
@@ -60,9 +63,5 @@ textarea {
 
 }
 
-#boton {
-    background-color: black;
-    color: white;
-    padding: 20px;
-}
+
 
