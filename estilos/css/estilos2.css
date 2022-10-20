@@ -6,26 +6,31 @@
 
 body {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-    background-color: rgb(243, 240, 240);
+    background-color: rgb(228, 218, 200);
 }
 
 header {
     height: 250px;
-    background-color: rgb(159, 150, 123);
+    background-color: lightblue;
     max-width: 100%;
     height: auto;
 }
 
 h1 {
     text-align: center;
+    font-weight: bolder;
 }
 
-.btn {
-    background-color: gold;
-    border-radius: 18px;
-    padding: 10px 16px;
-    text-decoration: none;
-    color: black;
+h2 {
+    font-weight: bold;
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
 }
 
 form {
@@ -63,5 +68,18 @@ textarea {
 
 }
 
+footer {
+    
+    background-color: rgb(177, 172, 172);
+    max-width: 100%;
+    height: auto;
+}
 
+a {
+    margin: 10px;
+}
 
+img {
+    margin-top: 55px;
+    
+}
