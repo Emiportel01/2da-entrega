@@ -25,11 +25,11 @@ h2 {
     font-weight: bold;
 }
 
-h4 {
+p {
     text-align: center;
 }
 
-p {
+h4 {
     text-align: center;
 }
 
@@ -70,9 +70,10 @@ textarea {
 
 footer {
     
-    background-color: rgb(177, 172, 172);
+    background-color: black;
     max-width: 100%;
     height: auto;
+    color: white;
 }
 
 a {
