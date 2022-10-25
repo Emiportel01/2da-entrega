@@ -15,14 +15,29 @@ header {
     height: auto;
 }
 
+.navbar {
+    background-color: rgb(48, 46, 46);
+
+}
+
 .titulo-header {
-    color: rgb(72, 187, 219);
+    color: rgb(70, 152, 218);
+    text-shadow: 0 0 5px #000;
+}
+
+.nav-link {
+    color: white;
+    
+}
+
+.nav-link:hover {
+    color: rgb(70, 152, 218);
 }
 
 h1 {
     text-align: center;
     font-weight: bolder;
-    color: rgb(52, 51, 51);
+    color: rgb(5, 5, 6);
 }
 
 h2 {
@@ -44,6 +59,7 @@ h4 {
 
 a {
     margin: 10px;
+    
 }
 
 footer {
