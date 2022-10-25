@@ -6,14 +6,18 @@
 
 body {
     background-color: rgb(218, 207, 207);
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 header {
     height: 250px;
-    background-color: rgb(102, 170, 191);
+    background-color:black;
     max-width: 100%;
     height: auto;
+}
+
+.titulo-header {
+    color: white;
 }
 
 h1 {
@@ -29,6 +33,7 @@ h2 {
 h3 {
     text-align: center;
 }
+
 p {
     text-align: center;
 }
@@ -42,14 +47,14 @@ a {
 }
 
 form {
-     background-color: rgb(89, 144, 180);
-     width: 400px;
-     margin: auto;
-     padding: 10px 20px;
-     box-sizing: border-box;
-     margin-top: 70px;
-     border-radius: 10px;
-     margin-bottom: 70px;
+    background-color: rgb(89, 144, 180);
+    width: 400px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 70px;
+    border-radius: 10px;
+    margin-bottom: 70px;
 }
 
 .texto-form {
@@ -60,7 +65,8 @@ form {
     margin-bottom: 20px;
 }
 
-input, textarea {
+input,
+textarea {
     width: 100%;
     margin-bottom: 20px;
     padding: 7px;
@@ -77,15 +83,19 @@ textarea {
 }
 
 footer {
-    
+
     background-color: black;
     max-width: 100%;
     height: auto;
     color: white;
 }
 
-#boton{
+#boton {
     background-color: rgb(0, 0, 0);
     color: white;
     padding: 20px;
+}
+
+.titulo-servicios {
+    color: black;
 }
