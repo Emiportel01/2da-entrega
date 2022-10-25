@@ -45,14 +45,16 @@
     </nav>
   </header>
   <main>
-    <form action="" method="get" enctype="text/plain">
-      <h2 class="texto-form">Dejanos tu consulta</h2>
-      <input type="text" name="name" id="name" required placeholder="Introduzca su nombre">
-      <input type="tel" name="phone" id="phone" required placeholder="Numero de telefono">
-      <input type="email" name="email" id="email" required placeholder="Email">
-      <textarea name="mensaje" required placeholder="Dejanos tu consulta aqui"></textarea>
-      <input type="submit" value="Enviar" id="boton">
-    </form>
+    <div class="container-fluid">
+      <div class="row">
+        <div class=" container col-md-6 align-self-center p-5">
+            <form class="row" action="" method="get" enctype="text/plain">
+                <input type="text" class="form-control-lg mb-3" name="name" id="name" required placeholder="Introduzca su nombre">
+                <input type="tel" class="form-control-lg mb-3" name="phone" id="phone" required placeholder="Numero de telefono">
+                <input type="email" class="form-control-lg mb-3" name="email" id="email" required placeholder="Email">
+                <textarea name="mensaje" class="form-control-lg mb-3" required placeholder="Envianos tu consulta"></textarea>
+                <input type="submit" class="form-control-lg" value="Enviar" id="boton">
+            </form>
   </main>
 
   <footer class="container-fluid">

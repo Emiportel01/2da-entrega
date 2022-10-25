@@ -16,7 +16,7 @@ header {
 }
 
 .titulo-header {
-    color: white;
+    color: rgb(72, 187, 219);
 }
 
 h1 {
@@ -43,42 +43,6 @@ h4 {
 
 a {
     margin: 10px;
-}
-
-form {
-    background-color: rgb(89, 144, 180);
-    width: 400px;
-    margin: auto;
-    padding: 10px 20px;
-    box-sizing: border-box;
-    margin-top: 70px;
-    border-radius: 10px;
-    margin-bottom: 70px;
-}
-
-.texto-form {
-    text-align: center;
-    color: black;
-    font-size: 30px;
-    margin: 0;
-    margin-bottom: 20px;
-}
-
-input,
-textarea {
-    width: 100%;
-    margin-bottom: 20px;
-    padding: 7px;
-    box-sizing: border-box;
-    font-size: 20px;
-    border: none;
-}
-
-textarea {
-    min-height: 100px;
-    max-height: 200px;
-    max-width: 100%;
-
 }
 
 footer {
