@@ -15,14 +15,14 @@ header {
     height: auto;
 }
 
-.navbar {
-    background-color: rgb(48, 46, 46);
-
-}
-
 .titulo-header {
     color: rgb(70, 152, 218);
     text-shadow: 0 0 5px #000;
+}
+
+.navbar {
+    background-color: rgb(48, 46, 46);
+
 }
 
 .nav-link {
@@ -67,7 +67,7 @@ a {
 }
 
 footer {
-
+    
     background-color: black;
     max-width: 100%;
     height: auto;
