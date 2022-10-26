@@ -11,8 +11,7 @@ body {
 
 header {
     height: auto;
-    max-width: 100%;
-
+    
 }
 
 .titulo-header {
@@ -70,7 +69,6 @@ a {
 footer {
     
     background-color: black;
-    max-width: 100%;
     height: auto;
     color: white;
     
