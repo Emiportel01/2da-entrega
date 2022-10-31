@@ -14,12 +14,12 @@ header {
 }
 
 .titulo-header {
-    color: rgb(70, 152, 218);
+    color: rgb(88, 169, 235);
     text-shadow: 0 0 5px #000;
 }
 
 .navbar {
-    background-color: rgb(48, 46, 46);
+    background-color: grey;
 
 }
 
