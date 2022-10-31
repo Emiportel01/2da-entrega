@@ -1,17 +1,16 @@
 {
-  "name": "yes",
+  "name": "preentregaportel",
   "version": "1.0.0",
   "description": "Mi primer web usando sass",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --includ path scss scss.estilos.scss css/estilos1.css",
+    "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
-
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Emiportel01/2da-entrega.git"
+    "url": "git+https://github.com/Emiportel01/ProyectoPortel.git"
   },
   "keywords": [
     "developer"
@@ -19,9 +18,9 @@
   "author": "Emiliano Portel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Emiportel01/2da-entrega/issues"
+    "url": "https://github.com/Emiportel01/ProyectoPortel/issues"
   },
-  "homepage": "https://github.com/Emiportel01/2da-entrega#readme",
+  "homepage": "https://github.com/Emiportel01/ProyectoPortel#readme",
   "devDependencies": {
     "node-sass": "^7.0.3",
     "nodemon": "^2.0.20"
