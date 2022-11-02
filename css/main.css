@@ -1,2 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+header {
+  height: auto; }
+
+.titulo-header {
+  color: #58a9eb;
+  text-shadow: 0 0 5px #000; }
+
+.navbar {
+  background-color: grey; }
+
+.nav-link {
+  color: white; }
+
+.nav-link:hover {
+  color: #4698da; }
+
+.navbar-toggler-icon {
+  box-shadow: 0 0 5px #47a7e7; }
+
 h1 {
-  color: red; }
+  text-align: center;
+  font-weight: bolder;
+  color: #050506; }
+
+h2 {
+  font-weight: bold;
+  text-align: left; }
+
+h3 {
+  text-align: center; }
+
+p {
+  text-align: center; }
+
+h4 {
+  text-align: center; }
+
+a {
+  margin: 10px; }
+
+footer {
+  background-color: black;
+  height: auto;
+  color: white; }
+
+#boton {
+  background-color: black;
+  color: white;
+  padding: 20px; }
