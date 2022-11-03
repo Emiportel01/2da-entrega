@@ -15,12 +15,12 @@ body {
 
 .navbar {
   background-color: grey; }
-  .navbar-link {
-    color: white; }
-    .navbar-link-link:hover {
-      color: #4698da; }
-      .navbar-link-link:hovertoggler-icon {
-        box-shadow: 0 0 5px #47a7e7; }
+
+.nav-link {
+  color: white; }
+
+.nav-link:hover {
+  color: #4698da; }
 
 h1 {
   text-align: center;
@@ -51,6 +51,4 @@ p {
 footer {
   background-color: black;
   height: auto;
-  color: white;
-  margin-top: auto;
-}
+  color: white; }

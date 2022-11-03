@@ -1,24 +1,12 @@
 .navbar {
     background-color: grey;
+}
 
+.nav-link {
+    color: white;
+    
+}
 
-
-    &-link {
-        color: white;
-
-
-
-        &-link:hover {
-            color: rgb(70, 152, 218);
-
-
-            &toggler-icon {
-                box-shadow: 0 0 5px rgb(71, 167, 231);
-
-            }
-
-        }
-
-    }
-
+.nav-link:hover {
+    color: rgb(70, 152, 218);
 }
