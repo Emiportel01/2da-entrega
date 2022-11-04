@@ -3,19 +3,16 @@
   padding: 0;
   box-sizing: border-box; }
 
-/*body*/
 body {
   background-color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
-/*header*/
 .header {
   height: auto; }
   .header-titulo {
     color: #58a9eb;
     text-shadow: 0 0 5px #000; }
 
-/*navegacion*/
 .navbar {
   background-color: grey; }
 
@@ -28,37 +25,33 @@ body {
 .navbar-toggler-icon {
   box-shadow: 0 0 5px #58a9eb; }
 
-/*titulos*/
 h1 {
   text-align: center;
   font-weight: bolder;
-  color: #050506; }
+  color: black; }
 
 h2 {
   font-weight: bold;
-  text-align: left; }
+  text-align: left;
+  color: rgba(11, 11, 12, 0.886); }
 
 h3 {
   text-align: center; }
 
 h4 {
   text-align: center; }
-  
-/*anchor*/
+
 a {
   margin: 10px; }
 
-/*parrafo*/
 p {
   text-align: center; }
 
-/*boton*/
 #boton {
   background-color: black;
   color: white;
   padding: 20px; }
 
-/*footer*/
 footer {
   background-color: black;
   height: auto;
