@@ -33,13 +33,14 @@ h1 {
 h2 {
   font-weight: bold;
   text-align: left;
-  color: rgba(11, 11, 12, 0.886); }
+  color: rgba(22, 22, 26, 0.954); }
 
 h3 {
   text-align: center; }
 
 h4 {
-  text-align: center; }
+  text-align: center;
+  color: #3297b9; }
 
 a {
   margin: 10px; }
